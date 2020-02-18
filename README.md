@@ -84,3 +84,11 @@ The k-Nearest Neighbors (kNN) algorithm assumes that instances that in close pro
 
 4. Sorting the ordered collection is required for the distances and indices. The order of the set
 is in ascending order, meaning smallest to largest by distances.
+
+Image showing how similar data points typically exist close to each other, 
+
+
+![knn](https://user-images.githubusercontent.com/16707828/74705151-da95dc80-51e0-11ea-8aae-291125010d09.png)
+
+
+
