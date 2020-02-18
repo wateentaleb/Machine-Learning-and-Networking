@@ -116,6 +116,17 @@ Accuracy denotes how often the classifier was correct. It’s a useful rate to f
 Miss classification is used to find how many times the classifier was wrong with its predictions.
 <img width="227" alt="Screen Shot 2020-02-17 at 11 58 32 PM" src="https://user-images.githubusercontent.com/16707828/74705312-6c054e80-51e1-11ea-8be6-d3ca34cdc4c1.png">
 
+--- 
+
+## Perfomance of the Two Models 
+
+<img width="440" alt="Screen Shot 2020-02-18 at 12 01 17 AM" src="https://user-images.githubusercontent.com/16707828/74705417-cef6e580-51e1-11ea-8c5e-0bbac028cf60.png">
+
+The first accuracy classified is the one denoting the use of the **Decision Tree Classifier**, whilst using the model, **the accuracy acquired was 100%.**
+
+
+While not as high as the Decision's Tree Clasiffier model, the **K-Nearest Neighbors** still obtained a high accuracy percentage, acheiving **93.1% accuracy**. The accuracy aquired is well within the sought-after confidence interval. 
+
 
 
 
