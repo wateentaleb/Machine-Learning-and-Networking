@@ -90,5 +90,32 @@ Image showing how similar data points typically exist close to each other,
 
 ![knn](https://user-images.githubusercontent.com/16707828/74705151-da95dc80-51e0-11ea-8aae-291125010d09.png)
 
+## Confusion Matrix 
+
+In order to explain a confusion matrix, a simple 2x2 model will be used to explain it's behaviour and function. 
+
+In the 2x2 confusion matrix, they are only two possible predicted cases, “yes” and “no”. If the instance that was examined for instance was that a student would receive a mark of 90% on the networking final, yes would be that the student indeed attains that mark and no otherwise.
+In terms of the most basic terms, there are four that need to be analyzed which will be listed and explained below:
+
++ **True positives (TP):** True positives mean that the instance which was predicted did in fact meet the conclusion. In other words, as known in the area of discrete mathematics, this can be related to implications which are denoted by p -> q, meaning that p (the hypothesis) implies q. In this case, our hypothesis was true, and so was the conclusion. The truth table for implications is shown below
+
++ **True negatives (TN):** True positives are the case when the hypothesis predicted the result was going to be no, and the conclusion was also no, moreover; this can also be related that the hypothesis implies the conclusion, the truth table will be shown below.
+
++ **False positives (FP):** false positives are the instances where the prediction was “yes” however the conclusion concluded that the result was “no”.
+
++ **False negatives (FN):** false negatives are the instance where the prediction was “no” however the conclusion concluded that the result was “yes”
+
+Furthermore, some of the rates that can be calculated will be shown below:
+
+<img width="188" alt="Screen Shot 2020-02-17 at 11 57 45 PM" src="https://user-images.githubusercontent.com/16707828/74705267-509a4380-51e1-11ea-8e1e-fae6f834e424.png">
+
+Accuracy denotes how often the classifier was correct. It’s a useful rate to find if your model is useful.
+
+
+Miss classification is used to find how many times the classifier was wrong with its predictions.
+
+<img width="227" alt="Screen Shot 2020-02-17 at 11 58 32 PM" src="https://user-images.githubusercontent.com/16707828/74705312-6c054e80-51e1-11ea-8be6-d3ca34cdc4c1.png">
+
+
 
 
