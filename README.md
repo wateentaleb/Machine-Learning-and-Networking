@@ -58,5 +58,24 @@ x_train, x_test, y_train, y_test = train_test_split(features,label,test_size=0.2
 
 ## Machine Learning Models Used 
 
-### Hello 
+### Decision Tree Classifier 
 
+The decision tree algorithm has a training time faster compared to neural network algorithms, and its time complexity is related to the number of records and number of attributes given in the data. This implementation is chosen due to its capability of dealing with high dimensional data and provide good accuracy. The way that this specific algorithm works is as follows, the first step is to select the best attribute using an ASM known as Attribute Selection Measures to split the records. Secondly, the selected attribute is made as a decision node and then consequently breaks the data set into smaller subsets. This process is repeated recursively for each child until one of the following conditions match:
+
+**1. All tuples belong to the same attribute value**
+**2. There are no more remaining attributes**
+**3. There are no more instances.**
+
+![decision-tree](https://user-images.githubusercontent.com/16707828/74704967-36ac3100-51e0-11ea-848d-ba783f302b39.png)
+
+
+### K-Nearest Neighbors 
+The k-Nearest Neighbors (kNN) algorithm assumes that instances that in close proximity are similar. In order to find which instances are near each other in proximity, the distance between those instances needs to be calculated. Furthermore, the most widely used method for calculating distance whilst using this algorithm is known as the Euclidean distance, which is also known as the straight-line distance. The k-Nearest Neighbors algorithm works as follows:
+
+1. Load the data of instances
+2. Initialze the k variable to the chosen number of neighbors
+3. For each instance in the data
+ + Calculate the distance between the query example and the current example from the data.
+ + Add the distances and the index of the example to an ordered collection
+4. Sorting the ordered collection is required for the distances and indices. The order of the set
+is in ascending order, meaning smallest to largest by distances.
