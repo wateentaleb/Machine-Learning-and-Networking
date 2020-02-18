@@ -111,8 +111,7 @@ Furthermore, some of the rates that can be calculated will be shown below:
 
 Accuracy denotes how often the classifier was correct. It’s a useful rate to find if your model is useful.
 
-
-
+---
 
 Miss classification is used to find how many times the classifier was wrong with its predictions.
 <img width="227" alt="Screen Shot 2020-02-17 at 11 58 32 PM" src="https://user-images.githubusercontent.com/16707828/74705312-6c054e80-51e1-11ea-8be6-d3ca34cdc4c1.png">
